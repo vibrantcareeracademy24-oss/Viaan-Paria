@@ -1,0 +1,172 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, "Noto Sans Gujarati", sans-serif;
+  background: #f3f7ff;
+  color: #222;
+}
+
+.container {
+  width: 95%;
+  max-width: 850px;
+  margin: 20px auto;
+}
+
+header {
+  background: white;
+  text-align: center;
+  padding: 25px 15px;
+  border-radius: 20px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.12);
+}
+
+header h1 {
+  margin: 0;
+  font-size: 34px;
+}
+
+header h2 {
+  margin: 8px 0;
+}
+
+header h3 {
+  margin: 8px 0;
+}
+
+.student-box {
+  background: white;
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 18px;
+  box-shadow: 0 3px 12px rgba(0,0,0,0.1);
+}
+
+.student-box label {
+  display: block;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.student-box input {
+  width: 100%;
+  padding: 12px;
+  margin-top: 5px;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  font-size: 17px;
+}
+
+.section-title {
+  text-align: center;
+  background: #4b7bec;
+  color: white;
+  padding: 14px;
+  border-radius: 15px;
+  margin-top: 25px;
+}
+
+.topic {
+  background: white;
+  margin: 15px 0;
+  padding: 18px;
+  border-radius: 16px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+}
+
+.topic h3 {
+  margin-top: 0;
+  font-size: 21px;
+}
+
+.topic p {
+  font-size: 18px;
+  line-height: 1.7;
+}
+
+button {
+  border: none;
+  background: #20bf6b;
+  color: white;
+  padding: 11px 18px;
+  border-radius: 12px;
+  font-size: 16px;
+  cursor: pointer;
+  margin: 5px 0;
+}
+
+button:hover {
+  opacity: 0.85;
+}
+
+.question {
+  background: white;
+  margin: 15px 0;
+  padding: 18px;
+  border-radius: 16px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+}
+
+.question-number {
+  font-weight: bold;
+  font-size: 19px;
+}
+
+.answer {
+  margin-top: 10px;
+  padding: 12px;
+  background: #f1f8ff;
+  border-radius: 10px;
+  font-size: 18px;
+}
+
+.special {
+  background: white;
+  margin-top: 20px;
+  padding: 22px;
+  border-radius: 18px;
+  text-align: center;
+  box-shadow: 0 3px 12px rgba(0,0,0,0.1);
+}
+
+.special h2 {
+  color: #3867d6;
+}
+
+.special p {
+  font-size: 20px;
+  line-height: 1.8;
+}
+
+footer {
+  text-align: center;
+  padding: 30px;
+  font-weight: bold;
+}
+
+@media (max-width: 600px) {
+
+  .container {
+    width: 97%;
+  }
+
+  header h1 {
+    font-size: 28px;
+  }
+
+  .topic h3 {
+    font-size: 19px;
+  }
+
+  .topic p,
+  .answer {
+    font-size: 17px;
+  }
+
+  button {
+    width: 100%;
+    padding: 13px;
+  }
+}
